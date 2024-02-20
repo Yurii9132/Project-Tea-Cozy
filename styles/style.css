@@ -1,0 +1,149 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: #000;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 69px;
+    background-color: #000;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+main {
+    position: relative;
+    margin-top: 69px;
+}
+
+.logo {
+    padding-left: 10px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 10px;
+}
+
+header li {
+    display: inline;
+    padding-left: 2.22rem;
+    padding-right: 10px;
+}
+
+header li a {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.banner {
+    background-image: url("../media/img-mission-background.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 50px; */
+}
+
+#mission {
+    width: 1200px;
+    background-color: #000;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2,
+h4 {
+    padding: 10px;
+    margin: 0;
+}
+
+#featured-tea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 55px;
+}
+
+.menu {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    align-content: flex-end;
+}
+
+figure{
+    margin: 10px 16px; 
+}
+
+.menu img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+#locations {
+    background-image: url("../media/img-locations-background.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 500px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+#locations h2 {
+    margin-bottom: 5px;
+}
+
+.shops{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 20px;
+    width: 300px;
+    background-color: #000;
+}
+
+.contact {
+    height: 200px;
+}
+
+.phone {
+    font-weight: 700;
+}
+
+.copy{
+    text-align: left;
+    margin-left: 20px;
+}
